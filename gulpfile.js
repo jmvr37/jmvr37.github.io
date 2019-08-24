@@ -56,12 +56,7 @@ gulp.task(
 // Set-up BrowserSync and watch
 
 gulp.task('browser-sync', function() {
-  const files = [
-    './build/css/*.css',
-    './build/js/*.js',
-    './*.php',
-    './**/*.php'
-  ];
+  const files = ['./build/css/*.css', './build/js/*.js'];
 
   browserSync.init(files, {
     proxy: 'http://127.0.0.1:5501/index.html'

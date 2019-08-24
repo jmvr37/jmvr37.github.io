@@ -3,10 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      id="fontawesome-css"
+      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1"
+      type="text/css"
+      media="all"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="build/css/style.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
   </head>
-  <body>
-    <h1>portfolio</h1>
+  <header
+    id="header"
+    style="background-image:linear-gradient(180deg,rgba(0,0,0,.10) 0,rgba(0,0,0,.11)),url('../Assets/images/concrete.jpg'); height: 99vh; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"
+  >
+    <div class="nav-bar">
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-home"></i></a>
+        </li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="text">
+      <h1>Hi! I'm Jose</h1>
+      <p>
+        Vancouver based Front & Back-End deveolper focused on crafting clean &
+        easy to read code.
+      </p>
+    </div>
+  </header>
+  <body class="background">
+    <div
+      class="about"
+      style="background-image:linear-gradient(180deg,rgba(0,0,0,.10) 0,rgba(0,0,0,.11)),url('../Assets/images/pc.jpg'); height: 87vh; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"
+    >
+      <div>
+        <h1>Skills</h1>
+      </div>
+      <div class="wrap">
+        <div class="Front">
+          <img src="./Assets/images/front.png" style="width:150px;" />
+          <h3>Front-End Developer</h3>
+          <p>
+            HTML5, CSS3, SASS, experienced with JS & JQuery, as well using git
+            and NPM.
+          </p>
+        </div>
+        <div class="Back">
+          <img src="./Assets/images/back.png" style="width:150px;" />
+          <h3>Back-End Developer</h3>
+          <p>
+            PHP, Wordpress, Experienced coding back-end sites, as well creating
+            themes and plugins for wordpress. knowlodge of underscore &
+            Bootstrap.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="work">
+      <h1>Work</h1>
+    </div>
   </body>
 </html>
