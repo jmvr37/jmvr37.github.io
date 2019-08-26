@@ -29,14 +29,14 @@
     <div class="nav-bar">
       <ul>
         <li>
-          <a href="#"><i class="fas fa-home"></i></a>
+          <a href="#home"><i class="fas fa-home"></i></a>
         </li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
-    <div class="text">
+    <div id="home" class="text">
       <h1>Hi! I'm Jose</h1>
       <p>
         Vancouver based Front & Back-End deveolper focused on crafting clean &
@@ -45,7 +45,7 @@
     </div>
   </header>
   <body class="background">
-    <div class="about">
+    <div class="about" id="skills">
       <div>
         <h1>Skills</h1>
       </div>
@@ -69,16 +69,24 @@
         </div>
       </div>
     </div>
-    <div class="work">
+    <div class="work" id="work">
       <h1>Work</h1>
       <div class="flex1">
         <img
           src="./Assets/images/image.png"
           style="width:100%; height: auto;"
         />
-        <a href="https://github.com/jmvr37">
-          <button class="btn"><span>Let's See More!</span></button></a
-        >
+        <div class="btns">
+          <a href="https://jmvr37.github.io/Instanews/">
+            <button class="btn"><span>Go Live!</span></button></a
+          >
+          <a href="https://jmvr37.github.io/quotes/">
+            <button class="btn"><span>Go Live!</span></button></a
+          >
+          <a href="https://github.com/jmvr37">
+            <button class="btn"><span>Go Live!</span></button></a
+          >
+        </div>
       </div>
     </div>
   </body>

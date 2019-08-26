@@ -98,7 +98,11 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 1120px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-transition: width 1s;
+  transition: width 1s; }
+  .wrap:hover {
+    width: 1220px; }
   .wrap .Front {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -164,7 +168,7 @@ body {
 
 .work {
   width: 100%;
-  height: 700px;
+  height: 680px;
   background-color: #fafafa; }
   .work h1 {
     text-align: center;
@@ -182,40 +186,55 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-    .work .flex1 a {
-      margin-top: 60px;
-      -ms-flex-item-align: center;
-          align-self: center;
-      border-radius: 6px;
-      -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-              box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
-      .work .flex1 a .btn {
-        width: 232px;
-        height: 45px;
+            flex-direction: column;
+    -webkit-transition: width 1s;
+    transition: width 1s; }
+    .work .flex1:hover {
+      width: 1220px; }
+    .work .flex1 .btns {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .work .flex1 .btns a {
+        margin-top: 60px;
+        -ms-flex-item-align: center;
+            align-self: center;
         border-radius: 6px;
-        background-color: #fafafa;
-        cursor: pointer;
-        font-size: 20px;
-        font-family: 'Oxygen', sans-serif;
-        -webkit-transition: all 0.5s;
-        transition: all 0.5s; }
-      .work .flex1 a .btn span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        -webkit-transition: 0.5s;
-        transition: 0.5s; }
-      .work .flex1 a .btn span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -10px;
-        -webkit-transition: 0.5s;
-        transition: 0.5s; }
-      .work .flex1 a .btn:hover span {
-        padding-right: 25px; }
-      .work .flex1 a .btn:hover span:after {
-        opacity: 1;
-        right: 0; }
+        -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+        .work .flex1 .btns a .btn {
+          width: 232px;
+          height: 45px;
+          border-radius: 6px;
+          background-color: #fafafa;
+          cursor: pointer;
+          font-size: 20px;
+          font-family: 'Oxygen', sans-serif;
+          -webkit-transition: all 0.5s;
+          transition: all 0.5s; }
+        .work .flex1 .btns a .btn span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          -webkit-transition: 0.5s;
+          transition: 0.5s; }
+        .work .flex1 .btns a .btn span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -10px;
+          -webkit-transition: 0.5s;
+          transition: 0.5s; }
+        .work .flex1 .btns a .btn:hover span {
+          padding-right: 25px; }
+        .work .flex1 .btns a .btn:hover span:after {
+          opacity: 1;
+          right: 0; }

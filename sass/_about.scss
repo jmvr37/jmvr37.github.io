@@ -15,6 +15,10 @@
   justify-content: space-evenly;
   width: 1120px;
   margin: 0 auto;
+  transition: width 1s;
+  &:hover {
+    width: 1220px;
+  }
   .Front {
     display: flex;
     flex-direction: column;
