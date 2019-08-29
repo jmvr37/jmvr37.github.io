@@ -262,3 +262,10 @@ body {
             justify-content: space-evenly;
     width: 1120px;
     margin: 0 auto; }
+    .contact .icons img {
+      width: 70px;
+      -webkit-transition: 0.2s;
+      transition: 0.2s;
+      background-color: #f2f2f2; }
+      .contact .icons img:hover {
+        width: 80px; }

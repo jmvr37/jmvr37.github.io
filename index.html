@@ -12,6 +12,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="build/css/style.min.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
       rel="stylesheet"
@@ -24,19 +25,20 @@
   </head>
   <header
     id="header"
-    style="background-image:linear-gradient(180deg,rgba(0,0,0,.10) 0,rgba(0,0,0,.11)),url('../Assets/images/concrete.jpg'); height: 99vh; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"
+    style="background-image:linear-gradient(180deg,rgba(0,0,0,.10) 0,rgba(0,0,0,.11)),url('../Assets/images/concrete.jpg'); min-height: 100vh; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;"
   >
-    <div class="nav-bar">
+    <div class="nav-bar" id="nav">
       <ul>
         <li>
           <a href="#home"><i class="fas fa-home"></i></a>
         </li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#cont">Contact</a></li>
       </ul>
     </div>
     <!-- closing tag for nav-bar -->
+    <div></div>
     <div id="home" class="text">
       <h1>Hi! I'm Jose</h1>
       <p>
@@ -95,13 +97,25 @@
       </div>
     </div>
     <!--closing div for work -->
-    <footer class="contact">
+    <footer class="contact" id="cont">
       <div class="icons">
-        <a><img src="./Assets/images/github-sign.png" style="width:70px"/></a>
-        <a><img src="./Assets/images/mail.png" style="width:70px"/></a>
-        <a><img src="./Assets/images/linkedin-sign.png" style="width:70px"/></a>
-        <a><img src="./Assets/images/smartphone.png" style="width:70px"/></a>
+        <a href="https://github.com/jmvr37"
+          ><img src="./Assets/images/github-sign.png"
+        /></a>
+        <a href="mailto:jmvr37@hotmail.com"
+          ><img src="./Assets/images/mail.png"
+        /></a>
+        <a><img src="./Assets/images/linkedin-sign.png"/></a>
+        <a href="tel:778-513-0752"
+          ><img src="./Assets/images/smartphone.png"
+        /></a>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

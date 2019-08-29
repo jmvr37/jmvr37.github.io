@@ -10,4 +10,22 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 700 ||
+      document.documentElement.scrollTop > 700
+    ) {
+      document.getElementById('nav').style.backgroundColor =
+        ' rgba(45, 45, 45, 0.98)';
+      jQuery('#nav a').css('color', 'white');
+    } else {
+      document.getElementById('nav').style.backgroundColor = '#fafafa';
+      jQuery('#nav a').css('color', 'black');
+    }
+  }
 });
