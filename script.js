@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const navLinks = document.querySelectorAll('.nav-bar ul li a');
+  const navLinks = document.querySelectorAll('.bar-links');
   navLinks.forEach(function(element) {
     element.addEventListener('click', function(event) {
       event.preventDefault();

@@ -1,23 +1,30 @@
+#page2,
 body {
   width: 100%;
   margin: 0 auto;
   height: auto; }
+  #page2 .background,
   body .background {
     background-color: #fafafa; }
+  #page2 .section1 img,
   body .section1 img {
     width: 100%;
     height: 610px; }
+  #page2 h1,
   body h1 {
     margin-top: 5px;
     color: black; }
+  #page2 #header,
   body #header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    #page2 #header .nav-bar,
     body #header .nav-bar {
       position: fixed;
       width: 100%;
       background-color: rgba(45, 45, 45, 0.98); }
+      #page2 #header .nav-bar ul,
       body #header .nav-bar ul {
         height: 44px;
         display: -webkit-box;
@@ -33,18 +40,23 @@ body {
         margin-bottom: 0;
         list-style: none;
         margin-top: 0; }
+        #page2 #header .nav-bar ul li,
         body #header .nav-bar ul li {
           -ms-flex-item-align: center;
               align-self: center; }
+          #page2 #header .nav-bar ul li a,
           body #header .nav-bar ul li a {
             text-decoration: none;
             color: white;
             font-size: 18px;
             font-family: 'Muli', sans-serif; }
+            #page2 #header .nav-bar ul li a:hover,
             body #header .nav-bar ul li a:hover {
               color: #0070c9; }
+          #page2 #header .nav-bar ul li i,
           body #header .nav-bar ul li i {
             font-size: 22px; }
+    #page2 #header .text,
     body #header .text {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -58,6 +70,7 @@ body {
           -ms-flex-pack: center;
               justify-content: center;
       width: 100%; }
+      #page2 #header .text h1,
       body #header .text h1 {
         margin-top: 0;
         -ms-flex-item-align: center;
@@ -66,6 +79,7 @@ body {
         text-align: center;
         width: 100%;
         font-size: 50px; }
+      #page2 #header .text p,
       body #header .text p {
         margin-top: 0;
         -ms-flex-item-align: center;
@@ -263,9 +277,12 @@ body {
     width: 1120px;
     margin: 0 auto; }
     .contact .icons img {
-      width: 70px;
+      width: 31px;
       -webkit-transition: 0.2s;
       transition: 0.2s;
       background-color: #f2f2f2; }
       .contact .icons img:hover {
-        width: 80px; }
+        width: 70px; }
+
+#page2 {
+  background-color: red; }
